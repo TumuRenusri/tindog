@@ -1,0 +1,103 @@
+/* section-title */
+#title{
+    background-color: rgba(252, 84, 84, 0.952);
+    
+}
+h1{
+    font-family:montesserat-black;
+    font-weight: 120px;
+    font-size: 50px;
+}
+.header{
+    padding:60px 30px;
+}
+#image{
+    padding-left:50px;
+    transform:rotate(15deg);
+    width:60%;
+    height:550px;
+}
+#top-button{
+    padding: 3px 3px;
+    margin-right:2px;
+}
+#top-button1{
+    padding: 3px 3px;
+    margin-left:2px;
+}
+@media(max-width:992px) and (max-width:320){
+    #image{
+        transform:rotate();
+        padding-top:35px;
+        margin-left: 30px;
+        width:320px;
+        height:620px;
+    }
+    
+    
+}
+
+
+/* section-features */
+#features{
+    padding-top:150px;
+    padding-bottom:100px;
+    padding-left: 120px;
+    padding-right:170px;
+    
+}
+#se-1{
+    padding-bottom:50px;
+    padding-left:50px;
+}
+#se-2{
+    padding-left:50px;
+    padding-bottom:50px;
+}
+#se-3{
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+#icon{
+    color:rgba(252, 84, 84, 0.952);
+    padding-left: 100px;
+}
+h3{
+    font-family:ubuntu;
+}
+/* section- Testimonials */
+#testimonials{
+   padding-top: 130px;
+   padding-left: 60px;
+   padding-right: 60px;
+}
+#image2{
+    border-radius:100%;
+    size:50px;
+    padding-left: 120px;
+}
+.middle{
+    background-color: rgba(252, 84, 84, 0.952);
+    padding-bottom:100px;
+}
+#line1{
+    font-family: ubuntu;
+    font-size: 50px;
+    padding-top: 40px;
+}
+#line2{
+    padding-bottom: 40px;
+}
+.card-body{
+    text-align: center;
+}
+.card-footer{
+    text-align: center;
+}
+#cta{
+    background-color: rgba(252, 84, 84, 0.952);
+    padding: 120px;
+}
+.card-deck{
+    margin-bottom: 20px;
+}
